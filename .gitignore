@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local Azure and Foundry state
+.azure/
+**/.foundry/.deployment.json
+**/.foundry/suites/
+**/.foundry/datasets/
+**/.foundry/evaluators/
+**/.foundry/results/
+
+# Local editor settings; shared launch/tasks configurations remain trackable
+.vscode/settings.json
+.vscode/argv.json
